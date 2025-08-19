@@ -595,8 +595,8 @@ MIT License - lihat [LICENSE](LICENSE) file untuk detail.
 
 **MSIMap** - Professional IMAP Library Built for Scale and Reliability
 
-[![⭐ Star on GitHub](https://img.shields.io/github/stars/yourusername/msimap.svg?style=social)](https://github.com/yourusername/msimap)
-[![🍴 Fork on GitHub](https://img.shields.io/github/forks/yourusername/msimap.svg?style=social)](https://github.com/yourusername/msimap/fork)
+[![⭐ Star on GitHub](https://img.shields.io/github/stars/tigrilminnada/msimap.svg?style=social)](https://github.com/tigrilminnada/msimap)
+[![🍴 Fork on GitHub](https://img.shields.io/github/forks/tigrilminnada/msimap.svg?style=social)](https://github.com/tigrilminnada/msimap/fork)
 
 Made with ❤️ by MS Developer
 
