@@ -21,7 +21,7 @@
 ### Installation
 
 ```bash
-npm install msimap
+npm install @tigrilminnada/msimap
 ```
 
 ### Basic Usage
@@ -34,7 +34,7 @@ const {
     quickSearch, 
     quickInboxCount,
     MassImapChecker 
-} = require('msimap');
+} = require('@tigrilminnada/msimap');
 ```
 
 #### Single Account Test
@@ -54,7 +54,7 @@ console.log(`Found ${search.count} emails containing "paypal"`);
 
 #### Mass Checking
 ```javascript
-const MassChecker = require('msimap/examples/mass-checker');
+const MassChecker = require('@tigrilminnada/msimap/examples/mass-checker');
 
 const checker = new MassChecker();
 const combos = await checker.loadCombos('./combos.txt');
@@ -108,7 +108,7 @@ msimap/
 ### ImapChecker Class
 
 ```javascript
-const { ImapChecker } = require('msimap');
+const { ImapChecker } = require('@tigrilminnada/msimap');
 const checker = new ImapChecker(options);
 ```
 
@@ -163,7 +163,7 @@ const config = checker.detectImapServer('user@gmail.com');
 ### MassImapChecker Class
 
 ```javascript
-const MassChecker = require('msimap/examples/mass-checker');
+const MassChecker = require('@tigrilminnada/msimap/examples/mass-checker');
 const massChecker = new MassChecker();
 ```
 
@@ -203,7 +203,7 @@ const {
     isDomainSupported,
     getServerConfig,
     getSupportedDomains 
-} = require('msimap');
+} = require('@tigrilminnada/msimap');
 ```
 
 ##### `quickLoginCheck(email, password, options)`
@@ -464,7 +464,7 @@ const options = {
 
 ### Example 1: Basic Usage
 ```javascript
-const { quickLoginCheck, quickInboxCount } = require('msimap');
+const { quickLoginCheck, quickInboxCount } = require('@tigrilminnada/msimap');
 
 async function basicExample() {
     try {
@@ -485,7 +485,7 @@ async function basicExample() {
 
 ### Example 2: Mass Checking with Results
 ```javascript
-const MassChecker = require('msimap/examples/mass-checker');
+const MassChecker = require('@tigrilminnada/msimap/examples/mass-checker');
 
 async function massExample() {
     const checker = new MassChecker();
@@ -509,7 +509,7 @@ async function massExample() {
 
 ### Example 3: Advanced Search
 ```javascript
-const { ImapChecker } = require('msimap');
+const { ImapChecker } = require('@tigrilminnada/msimap');
 
 async function advancedExample() {
     const checker = new ImapChecker({ debug: true });
