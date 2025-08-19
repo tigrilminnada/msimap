@@ -21,7 +21,7 @@
 ### Installation
 
 ```bash
-npm install @tigrilminnada/msimap
+npm install msimap-pro
 ```
 
 ### Basic Usage
@@ -34,7 +34,7 @@ const {
     quickSearch, 
     quickInboxCount,
     MassImapChecker 
-} = require('@tigrilminnada/msimap');
+} = require('msimap-pro');
 ```
 
 #### Single Account Test
