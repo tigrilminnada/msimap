@@ -1,6 +1,6 @@
 {
   "name": "msimap-pro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Professional IMAP library for mass email validation, inbox analysis, and keyword searching with intelligent auto-mapping for 300+ email providers",
   "main": "index.js",
   "scripts": {
