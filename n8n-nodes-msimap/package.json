@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-msimap",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "n8n community node for MSIMap - Professional IMAP email validation and mass checking",
   "keywords": [
     "n8n-community-node-package",
@@ -26,12 +26,15 @@
   },
   "files": [
     "README.md",
-    "package.json"
+    "package.json",
+    "nodes"
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [],
-    "nodes": []
+    "nodes": [
+      "nodes/MSIMap/MSIMap.node.js"
+    ]
   },
   "devDependencies": {},
   "dependencies": {
