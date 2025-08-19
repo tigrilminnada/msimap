@@ -1,0 +1,55 @@
+{
+  "name": "n8n-nodes-msimap",
+  "version": "1.0.0",
+  "description": "n8n community node for MSIMap - Professional IMAP email validation and mass checking",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "imap",
+    "email",
+    "validation",
+    "mass-checker"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tigrilminnada/n8n-nodes-msimap",
+  "author": {
+    "name": "MS Developer",
+    "email": "scht.devaloper@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tigrilminnada/n8n-nodes-msimap.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && gulp build:icons",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials package.json",
+    "lintfix": "eslint nodes credentials package.json --fix",
+    "prepublishOnly": "npm run build && npm run lint -s"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/MSImapApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/MSImap/MSImap.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint-plugin-n8n-nodes-base": "^1.11.0",
+    "gulp": "^4.0.2",
+    "n8n-workflow": "*",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "msimap-pro": "^1.0.2"
+  }
+}
