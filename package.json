@@ -1,0 +1,51 @@
+{
+  "name": "msimap",
+  "version": "1.0.1",
+  "description": "Professional IMAP library for mass email validation, inbox analysis, and keyword searching with intelligent auto-mapping for 300+ email providers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "example": "node example.js",
+    "mass-check": "node examples/run-mass-checker.js",
+    "single-test": "node examples/single-test.js"
+  },
+  "keywords": [
+    "imap",
+    "email",
+    "checker",
+    "inbox",
+    "search",
+    "auto-detect",
+    "mass-checker",
+    "email-validation",
+    "keyword-search",
+    "msimap"
+  ],
+  "author": "MS Developer",
+  "license": "MIT",
+  "dependencies": {
+    "node-imap": "^0.9.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tigrilminnada/msimap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tigrilminnada/msimap/issues"
+  },
+  "homepage": "https://github.com/tigrilminnada/msimap#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "lib/",
+    "examples/",
+    "index.js",
+    "example.js",
+    "test.js",
+    "README.md",
+    "SERVER-INFO.md",
+    "LICENSE"
+  ]
+}

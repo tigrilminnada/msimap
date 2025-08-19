@@ -1,0 +1,22 @@
+# Email:Password Combinations for Testing
+# Format: email:password
+# Add your real email:password combinations here for testing
+
+# Example format (replace with real credentials):
+# test@gmail.com:your-app-password
+# user@outlook.com:your-password
+# someone@yahoo.com:their-password
+
+# Japanese providers examples:
+# user@ocn.ne.jp:password123
+# test@juno.ocn.ne.jp:mypassword
+# example@biglobe.ne.jp:testpass
+
+# Note: For Gmail, Yahoo, and other 2FA-enabled accounts,
+# you need to use App Passwords instead of regular passwords.
+# 
+# To generate App Password:
+# 1. Enable 2-Factor Authentication
+# 2. Go to account settings
+# 3. Generate App Password
+# 4. Use that password here instead of your regular password
